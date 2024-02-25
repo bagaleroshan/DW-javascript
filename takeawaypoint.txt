@@ -1,0 +1,95 @@
+day 1
+js is  single threaded synchronous language
+commented code will not run. eg:single line // (crt + /) and multiline /* */(shift+alt+A)
+
+
+data 
+string =>they are always wrapped by double quotes
+number => 1,3,2.3
+boolean =>true , false
+
+
+operator
++,-,*,/,%
+
+1+2=3
+1+"2"="12"=>always string wins
+in js operation are performed between two values
+1+3+"3"+3+4=4334
+
+
+
+
+
+day 2
+variable 
+   ->we must define variable before calling variable.
+   ->variable name must be descriptive.  eg:let num1=2;
+   ->always use camel case convention for naming variable. eg:isThisRight
+
+->js is dynamic language because a variable can store different data at different time.
+
+
+-> %(modulus) is reminder operator.
+
+STRING
+    =>it can be define by using single quotes or double quotes.
+    =>we cannot use single quotes inside single quotes.
+    =>we cannot use double quotes inside double quotes.
+
+ 
+
+day 3 
+
+conversion to boolean
+all empty are falsy
+
+=>string
+""=>falsy
+all are truthy
+
+=>number 
+0=>falsy
+all are truthy
+
+
+=>string can be define using '',"",``.
+=>we can call variable inside `` using ${}but it is not possible in '',"".
+=>we can not use ' inside "" and so on.
+
+day 4
+{
+  ever curly braces is like new file
+  we can define variable and call variable and so on
+  but we cannot export variable  define inside curly braces
+}
+
+export by name
+=>a file as many export.
+=>need curly braces while import
+=>while import you should use same name which is used while export
+export by default
+=>a file as only one export default
+=>does not curly braces while import
+=>while import you can use any name
+
+###interview question
+define js?
+=>js is  single threaded and synchronous language.
+ERROR
+1+3+"3"+3+4=>4334
+truthy and falsy
+ 
+ERROR
+  address is not define =>it means address variable is not define.
+
+
+console.log("1")
+setTimeout(()=>{
+    console.log("hello")
+},0)
+console.log("2")
+helll roshan
+
+address 0 vb;'
+
